@@ -1,5 +1,6 @@
-require 'rspec'
-require 'page-object'
-require 'data_magic'
+require 'cucumber'
+require 'httparty'
+require 'json'
+require 'pry'
 
-World(PageObject::PageFactory)
+DATA = YAML.load_file("#{File.dirname(__FILE__)}/data/data.yaml")
