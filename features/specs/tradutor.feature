@@ -6,22 +6,14 @@ Eu como usuário
 Quero a tradução de uma palavra/frase
 Para saber como é em outro idioma
 
-@cenario_traduzir1
-Cenário: Obter tradução
-    Dado que eu tenho uma palavra que precisa ser traduzida
-    Quando eu mandar o request que realiza essa tradução
-    Então o código de resposta será 200
-    E irá detectar o idioma original
-    E irá retornar a tradução
-
-@cenario_traduzir2
+@cenario_traduzir
 Cenário: Obter tradução
     Dado que eu precise da tradução de "Sweet child o' mine" para "pt-br"
     Quando eu mandar o request que realiza essa tradução
     Então o código de resposta será 200
     E a tradução será: "Minha doce criança"
 
-@cenario_traduzir3
+@esquema_cenario_traduzir
 Esquema do Cenário: Obter tradução
     Dado que eu precise da tradução de "<frase>" para "<idioma>"
     Quando eu mandar o request que realiza essa tradução

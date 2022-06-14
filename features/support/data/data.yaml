@@ -2,6 +2,4 @@ base:
   url: https://google-translate1.p.rapidapi.com/language/translate/v2/
   host: google-translate1.p.rapidapi.com
 token:
-  valido1: 5c400c07f8mshcac638eb5cc2c78p1ee05djsn11a1331d38ab
-  valido2: becec4f39emsh00da02b13a14509p19dd4ejsnc5fe405aa142
-  valido3: 795e6a839amsh6fc4a5539a77c6fp13e6dajsn595757acbcb3
+  valido: 28a1717fcbmshe461b02e76c083ap11d6f8jsn156b694b29f3
